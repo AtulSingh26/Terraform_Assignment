@@ -143,14 +143,14 @@ Explaination for the resources:
 - The provisioner block runs inline commands to update packages, install Nginx, and start the Nginx service on the instance. 
 
 Explanation of the resouces:  
-`resource "aws_instance" "PRIVATE_VM"`: This defines the resource that will be created. In this case, it is an AWS EC2 instance.
-`ami`: This property specifies the AMI that will be used to create the instance.
-`instance_type`: This property specifies the instance type of the instance.
-`key_name`: This property specifies the name of the key pair that will be used to access the instance.
-`subnet_id`: This property specifies the ID of the subnet in which the instance will be created.
-`tags`: This property specifies the tags that will be applied to the instance.
-`provisioner "remote-exec"`: This provisioner specifies that the instance will be provisioned using the remote-exec provisioner.
-`inline`: This property specifies the commands that will be run to provision the instance.
+`resource "aws_instance" "PRIVATE_VM"`: This defines the resource that will be created. In this case, it is an AWS EC2 instance.  
+`ami`: This property specifies the AMI that will be used to create the instance.  
+`instance_type`: This property specifies the instance type of the instance.  
+`key_name`: This property specifies the name of the key pair that will be used to access the instance.  
+`subnet_id`: This property specifies the ID of the subnet in which the instance will be created.  
+`tags`: This property specifies the tags that will be applied to the instance.  
+`provisioner "remote-exec"`: This provisioner specifies that the instance will be provisioned using the remote-exec provisioner.  
+`inline`: This property specifies the commands that will be run to provision the instance.  
 
 
 The code block for this is present in `ec2.tf`.
