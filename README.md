@@ -29,7 +29,7 @@ Explaination of the  resources:
 `tags`: This property specifies a list of tags to associate with the VPC.  
 `Name`: This tag key specifies the name of the VPC.  
 
- The code block for this is present in `main.tf`.
+ The code block for this is present in `vpc.tf`.
  
  
 #### Output:  
